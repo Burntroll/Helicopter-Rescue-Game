@@ -74,7 +74,7 @@ background-image:url(/assets/imgs/apache.png);
 	height:200px;
 	background-color:#FFF;
  	margin-left:auto;
-        margin-right:auto;
+    margin-right:auto;
  	margin-top:100px;
 	text-align:center;
 	padding:10px;
@@ -181,4 +181,22 @@ background-image:url(/assets/imgs/apache.png);
 	height: 8px;
 	position: absolute;
 	background-image: url(/assets/imgs/disparo.png);
+}
+
+/***************
+** EXPLOSÕES **
+***************/
+
+#explosao1 {
+	width:15px;
+	height:87px;
+	position:absolute;
+
+}
+
+#explosao2 {
+	width:15px;
+	height:87px;
+	position:absolute;
+	
 }
