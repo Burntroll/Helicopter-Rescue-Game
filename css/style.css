@@ -172,6 +172,46 @@ background-image:url(/assets/imgs/apache.png);
      to { background-position: -528px; }
 }
 
+/***************
+** ANIMAÇÃO 4 **
+***************/
+
+.anima4 {
+	width:44px;
+	height:51px;
+	background-image:url(/assets/imgs/amigo_explosao.png);
+	animation:play3 .5s steps(7) infinite;
+	-webkit-animation: play3 .5s steps(7) infinite;
+    -moz-animation: play3 .5s steps(7) infinite;
+    -ms-animation: play3 .5s steps(7) infinite;
+    -o-animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play3 {
+	from {background-position:0px;}
+	to {background-position:-308px;}
+}
+
+@-webkit-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-moz-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-ms-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-o-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
 /************
 ** DISPARO **
 ************/
@@ -199,4 +239,10 @@ background-image:url(/assets/imgs/apache.png);
 	height:87px;
 	position:absolute;
 	
+}
+
+#explosao3 {
+	width:44px;
+	height:51px;
+	position:absolute;
 }
