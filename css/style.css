@@ -82,7 +82,7 @@ background-image:url(/assets/imgs/apache.png);
 }
 
 /***************
-** Animação 1 **
+** ANIMAÇÃO 1 **
 ***************/
 
 .anima1 {
@@ -122,7 +122,7 @@ background-image:url(/assets/imgs/apache.png);
  }
 
 /***************
-** Animação 2 **
+** ANIMAÇÃO 2 **
 ***************/
 
 .anima2 {
@@ -135,7 +135,7 @@ background-image:url(/assets/imgs/apache.png);
 }
 
 /***************
-** Animação 3 **
+** ANIMAÇÃO 3 **
 ***************/
 
 .anima3 {
@@ -170,4 +170,15 @@ background-image:url(/assets/imgs/apache.png);
 @-o-keyframes play2 {
    from { background-position:    0px; }
      to { background-position: -528px; }
+}
+
+/************
+** DISPARO **
+************/
+
+#disparo {
+	width: 50px;
+	height: 8px;
+	position: absolute;
+	background-image: url(/assets/imgs/disparo.png);
 }
