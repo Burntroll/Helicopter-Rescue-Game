@@ -10,6 +10,12 @@ h1 {
 	color:#603A03;
 }
 
+h2 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#FFF
+}
+
 body {
 	background-image:url(/assets/imgs/fundo.jpg);
 }
@@ -29,6 +35,14 @@ body {
 	background-image:url(/assets/imgs/fundo_game.jpg);
 	border-color:#FFF;
 	border-style:solid;
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
 }
 
 #jogador {
