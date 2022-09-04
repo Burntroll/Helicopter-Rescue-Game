@@ -260,3 +260,15 @@ background-image:url(/assets/imgs/apache.png);
 	height:51px;
 	position:absolute;
 }
+
+/***************
+** ENERGY BAR **
+***************/
+
+#energia {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;	
+}
